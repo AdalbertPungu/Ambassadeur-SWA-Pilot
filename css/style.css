@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     margin: 1% 5%;
-    background-color:E6F7FF;
+    background-color: #E6F7FF;
 }
 
 main {
@@ -12,7 +12,8 @@ main {
 
 
 .box {
-    box-shadow: .1em .1em .2em #80D4FF;
+    background-color: Snow;
+     box-shadow: .1em .1em .2em #80D4FF;
     border-radius: .4em;
     border-width: .01em;
     border-style: solid;
@@ -23,25 +24,31 @@ main {
 }
 
 h1 {
-    color: navy;
+    font-family: 'Nunito', sans-serif;
+    color: steelblue;/* navy;*/
     margin: 0em;
     display: block;
 }
 
 h2 {
-    color: navy;
+    color: steelblue;
     font-size: 1.2em;
     margin: 0em;
 }
 
 h3 {
-    color: navy;
+    color: silver;
     font-size: 1em;
     margin: 0em;
 }
 
 ul {
+    font-family: 'Nunito', sans-serif;
     margin: 0em 0em .3em 0em;
     list-style-type: square;
     padding-left: 1.4em;
+}
+
+a {
+    color: black;
 }
